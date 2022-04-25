@@ -25,17 +25,7 @@
 \DeclareMathOperator{\Res}{Res}
 \renewcommand\thesection{\arabic{section}}
 \renewcommand\thesubsection{\thesection.\arabic{subsection}}
-\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
-\renewcommand\thesectiondis{\arabic{section}}
-\renewcommand\thesubsectiondis{thesectiondis.\arabic{subsection}}
-\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
-\hyphenation{optical net-works semi-conductor}
-\def\inputGnumericTable{}
-\lstset{
-frame = single,
-breaklinks=true,
-columns=fullflexible
-}
+
 \title{Assignment 1}
 \author{Kummitha Jhanavi( CS21BTECH11032) }
 \date{April 2022}
@@ -53,21 +43,33 @@ In the figure given below O is the centre of the circle. If QR = OP  and  $\angl
 Let the radius of the circle be r.
 
 given OP = OR,
+
 OP = OQ = QR = r,
+
 IN $\Delta$ OQR, OQ = QR
+$\implies$
 $\angle$ QOR = $\angle$ ORP = 20
 \\Consider $\Delta$ OQR , An exterior angle of a triangle is equal to the sum of the two opposite interior angles//
 And $\angle$ OQP = $\angle$ QOR = $\angle$ ORQ
 $\angle$ OQP = 20 + 20
+    $\implies$
 $\angle$ OQP = 40
+\hline
 In , $\Delta$ OPQ 
 \\Sum of all angles in a triangle is equal to 180//
+   $\implies$
 $\angle$ POQ = 180 - ($\angle$ OPQ + $\angle$ OQP)
+$\implies$
 $\angle$ POQ = 180 - 40 - 40
+    $\implies$
 $\angle$ POQ = 100
+\hline
 \\Sum of angle of striaght line is 180//
+ $implies$
 $\angle$ x + $\angle$ POQ + $\angle$ QOR = 180
+  $\implies$
 $\angle$ x + 100 + 20 = 180$.
+  $\implies$
 \angle$ x = 60
 
 
