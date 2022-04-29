@@ -1,9 +1,42 @@
-\documentclass[journal,12pt,two column]
-\usepackage[utf8]{inputenc}
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn,hidelinks]{IEEEtran}
+\usepackage{gensymb}
 \usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage[cmex10]{amsmath}
+\usepackage{amsthm}
+\usepackage[export]{adjustbox}
+\usepackage{bm}
+\usepackage{longtable}
+\usepackage{enumitem}
 \usepackage{mathtools}
-\usepackage{amsmath}
-\usepackage{amsfonts}
+ \usepackage{tikz}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{listings}
+\usepackage{color}                                            %%
+\usepackage{array}                                            %%
+\usepackage{longtable}                                        %%
+\usepackage{calc}                                             %%
+\usepackage{multirow}                                         %%
+\usepackage{hhline}                                           %%
+\usepackage{ifthen}                                           %%
+\usepackage{lscape}     
+\usepackage{multicol}
+% \usepackage{enumerate}
+\DeclareMathOperator*{\Res}{Res}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\def\inputGnumericTable{}                                 %%
+\lstset{
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
 
 \title{Assignment 1}
 \author{Kummitha Jhanavi( CS21BTECH11032) }
@@ -15,9 +48,6 @@
 \newpage
 \section{Question}
 In the figure given below O is the centre of the circle. If QR = OP  and  $\angle$ ORP = 20. Find the value of x giving reasons
-\begin{center}
-    \includegraphics[]{assignment 1 figure.jpg}
-\end{center}
 \section{solution}
 \\Let the radius of the circle be r.//
 
@@ -29,17 +59,18 @@ IN $\Delta$ OQR, OQ = QR
 
 $\angle$ QOR = $\angle$ ORP = 20
 \\Consider $\Delta$ OQR , An exterior angle of a triangle is equal to the sum of the two opposite interior angles//
-
-\begin{center}
+\begin{align}
+    \begin{center}
     $\angle$ OQP = $\angle$ QOR + $\angle$ ORQ
-\end{center}
-\begin{center}
-    $ \rightarrow \angle OQP = 20+20$
 \end{center}
    \begin{equation}
        \rightarrow \angle OQP = 40
    \end{equation}
- \\consider $\Delta$ OPQ 
+    \end{align}
+    \\consider $\Delta$ OPQ 
+\begin{align}
+    
+    
 \\Sum of all angles in a triangle is equal to 180//
 \begin{center}
     $ \rightarrow \angle POQ = 180 - (\angle OPQ + \angle OQP)$
@@ -50,7 +81,10 @@ $\angle$ QOR = $\angle$ ORP = 20
 \begin{equation}
     \rightarrow \angle POQ = 100
 \end{equation}
-\\Sum of angle of straight line is 180//
+     
+\end{align}
+\begin{align}
+    \\Sum of angle of straight line is 180//
  \begin{center}
      $\rightarrow \angle x + \angle POQ + \angle QOR =  180$
  \end{center}
@@ -60,11 +94,13 @@ $\angle$ QOR = $\angle$ ORP = 20
  \begin{equation}
      \rightarrow \angle x =60
  \end{equation}
+\end{align}
 therefore $\angle$ x is 60 when OQ = QR
 and hence x = 60
 
 
-
 \end{document}
+
+
 
 
