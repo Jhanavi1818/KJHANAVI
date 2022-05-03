@@ -72,12 +72,10 @@ $\angle$ QOR = $\angle$ ORP = 20
     
     
 \\Sum of all angles in a triangle is equal to 180//
-\begin{center}
+
     $ \rightarrow \angle POQ = 180 - (\angle OPQ + \angle OQP)$
-    \end{center}
-\begin{center}
+    
    $ \rightarrow \angle POQ = 180-40-40$
-\end{center}
 \begin{equation}
     \rightarrow \angle POQ = 100
 \end{equation}
@@ -85,12 +83,10 @@ $\angle$ QOR = $\angle$ ORP = 20
 \end{align}
 \begin{align}
     \\Sum of angle of straight line is 180//
- \begin{center}
+ 
      $\rightarrow \angle x + \angle POQ + \angle QOR =  180$
- \end{center}
- \begin{center}
      $\rightarrow \angle x +100+20 = 180$
- \end{center}
+ 
  \begin{equation}
      \rightarrow \angle x =60
  \end{equation}
