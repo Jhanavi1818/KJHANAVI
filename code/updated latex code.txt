@@ -1,5 +1,7 @@
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn,hidelinks]{IEEEtran}
+\usepackage[top = 0.9in,bottom = 0.9in,left = 0.8in,right = 0.8in]{geometry}
+\setlength{\columnsep}{1cm}
 \usepackage{gensymb}
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -31,6 +33,8 @@
 \renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
 \renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
 \hyphenation{op-tical net-works semi-conduc-tor}
+\newcommand{\question}{\noindent \textbf{Question: }}	
+\newcommand{\solution}{\noindent \textbf{Solution: }}
 \def\inputGnumericTable{}                                 %%
 \lstset{
 frame=single, 
