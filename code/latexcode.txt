@@ -1,5 +1,4 @@
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
-
 \usepackage{tfrupee}
 \usepackage{enumitem}
 \usepackage{amsmath}
