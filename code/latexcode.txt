@@ -1,20 +1,20 @@
-\documentclass[journal, 11pt, twocolumn]{IEEEtran}
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{graphicx}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\graphicspath{{figs/}}
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
 
-\font\twelve=cmr12 at 15pt 
-\title{\twelve AI1110 Assignment 1}
-\author{Kummitha jhanavi, cs21btech11032}
+\usepackage{tfrupee}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+\vspace{3cm}
+\title{AI1110 Assignment I (ICSE Class 10 2018)}
+\author{kummitha jhanavi (CS21BTECH11032)}
+\date{March 2022}
 
 \begin{document}
-    \maketitle
-    \textbf{ICSE  paper2019 Q10 (b)}\\
-   
-    \hspace{5pt} $\exists \hspace{2pt} n \in \mathbb{N}$\\
+\maketitle
+\textbf {Question 10b:}
+ \hspace{5pt} $\exists \hspace{2pt} n \in \mathbb{N}$\\
     \textbf{According to the question:}
 In the figure given below O is the centre of the circle. If QR = OP  and  $\angle$ ORP = 20. Find the value of x giving reasons
 \section{solution}
@@ -48,26 +48,4 @@ $\angle$ QOR = $\angle$ ORP = 20
 \begin{equation}
     \rightarrow \angle POQ = 100
 \end{equation}
-     
-\end{align}
-\begin{align}
-    \\Sum of angle of straight line is 180//
- 
-     $\rightarrow \angle x + \angle POQ + \angle QOR =  180$
-     $\rightarrow \angle x +100+20 = 180$
- 
- \begin{equation}
-     \rightarrow \angle x =60
- \end{equation}
-\end{align}
-therefore $\angle$ x is 60 when OQ = QR
-and hence x = 60
-
-    \begin{figure}[assignment 1 figure]
-        \centering
-        \includegraphics[width=\columnwidth]{plot.png}
-        \caption{Plot showing the polynomial in \autoref{eq4}}
-        \label{Fig1}
-    \end{figure}\\
-    
 \end{document}
