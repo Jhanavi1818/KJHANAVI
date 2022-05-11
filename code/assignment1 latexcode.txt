@@ -1,0 +1,64 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{tfrupee}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+\vspace{3cm}
+\title{AI1110 Assignment I (ICSE Class 10 2018)}
+\author{kummitha jhanavi (CS21BTECH11032)}
+\date{March 2022}
+
+\begin{document}
+\maketitle
+\textbf {Question 10b:}
+ 
+    \textbf{According to the question:}
+In the figure given below O is the centre of the circle. If QR = OP  and  $\angle$ ORP = 20. Find the value of x giving reasons
+\section{solution}
+\\Let the radius of the circle be r.//
+
+given OP = OR,
+
+OP = OQ = QR = r,
+
+IN $\Delta$ OQR, OQ = QR
+
+$\angle$ QOR = $\angle$ ORP = 20
+\\Consider $\Delta$ OQR , An exterior angle of a triangle is equal to the sum of the two opposite interior angles//
+\begin{align}
+    \begin{center}
+    $\angle$ OQP = $\angle$ QOR + $\angle$ ORQ
+\end{center}
+   \begin{equation}
+       \rightarrow \angle OQP = 40
+   \end{equation}
+    \end{align}
+    \\consider $\Delta$ OPQ 
+    \begin{center}
+    $\angle$ POQ = 180 - $\angle$OPQ -$\angle$OQP
+    $\implies$ 180 - 40 - 40
+        \end{center}
+     \begin{equation}
+    \rightarrow \angle POQ = 100
+\end{equation}
+now, $\angle$x +$\angle$POQ +$\angle$QOR = 180
+\\A straight line//
+$\begin{center}
+    $\angle$ x +100+20 = 180
+\end{center}$
+$\angle$x = 180-120 = 60
+
+hence, the value of x is 60
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{assignment 1 figure.jpg}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}
+
+
+
+\end{document}
