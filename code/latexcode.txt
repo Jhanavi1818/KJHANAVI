@@ -38,14 +38,11 @@ $\angle$ QOR = $\angle$ ORP = 20
     \end{align}
     \\consider $\Delta$ OPQ 
 \begin{align}
-    
-    
-\\Sum of all angles in a triangle is equal to 180//
-
-    $ \rightarrow \angle POQ = 180 - (\angle OPQ + \angle OQP)$
-    
-   $ \rightarrow \angle POQ = 180-40-40$
+    \\Sum of all angles in a triangle is equal to 180//
+ $ \rightarrow \angle POQ = 180 - (\angle OPQ + \angle OQP)$
+    $ \rightarrow \angle POQ = 180-40-40$
 \begin{equation}
     \rightarrow \angle POQ = 100
 \end{equation}
+\end{align}
 \end{document}
