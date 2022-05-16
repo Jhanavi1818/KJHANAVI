@@ -15,9 +15,9 @@
 \maketitle
 \textbf {Question 10b:}
  
-    \textbf{According to the question:}
+    \textbf{Question:}
 In the figure given below O is the centre of the circle. If QR = OP  and  $\angle$ ORP = 20. Find the value of x giving reasons
-\section{solution}
+\textbf{solution}
 \\Let the radius of the circle be r.//
 
 given OP = OR,
